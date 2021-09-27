@@ -1,3 +1,6 @@
+#creating XOR gate like functionality using python and then plotting them
+
+
 # Import required libraries
 import numpy as np
 import matplotlib.pyplot as plt
