@@ -2,12 +2,8 @@
 #       - Generate, plot and save the "Donut Dataset" with quadratic features
 #       - create dataframe with just(x1,x2,y)
 #       - Save to csv without header row, index column
-#       -
-#       -
-#       -
-#       -
-#       -
-#       -
+
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plot
