@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import os 
 from PIL import Image
+#Getting the image
 os.system("wget https://stat.overdrive.in/wp-content/odgallery/2020/06/57263_2020_Mercedes_Benz_GLS.jpg")
 os.system("mv 57263_2020_Mercedes_Benz_GLS.jpg car.jpg")
 os.system("clear")
