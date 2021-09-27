@@ -1,7 +1,7 @@
 # Deep Learning Prerequisite
  Basic Usage of some basic libraries required for deep learning
 
-#NUMPY
+# Numpy
 NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
 
 At the core of the NumPy package, is the ndarray object. This encapsulates n-dimensional arrays of homogeneous data types, with many operations being performed in compiled code for performance. There are several important differences between NumPy arrays and the standard Python sequences:
@@ -14,10 +14,10 @@ At the core of the NumPy package, is the ndarray object. This encapsulates n-dim
 
   - A growing plethora of scientific and mathematical Python-based packages are using NumPy arrays; though these typically support Python-         sequence input, they convert such input to NumPy arrays prior to processing, and they often output NumPy arrays. In other words, in order       to efficiently use much (perhaps even most) of today’s scientific/mathematical Python-based software, just knowing how to use Python’s         built-in sequence types is insufficient - one also needs to know how to use NumPy arrays.
 
-#MATHPLOTLIB
+# MATHPLOTLIB
 
-#PANDAS
+# PANDAS
 
-#SCIPY
+# SCIPY
 
-#Some basic Machine Learning 
+# Some basic Machine Learning 
