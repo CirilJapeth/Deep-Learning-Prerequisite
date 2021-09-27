@@ -14,10 +14,27 @@ At the core of the NumPy package, is the ndarray object. This encapsulates n-dim
 
   - A growing plethora of scientific and mathematical Python-based packages are using NumPy arrays; though these typically support Python-         sequence input, they convert such input to NumPy arrays prior to processing, and they often output NumPy arrays. In other words, in order       to efficiently use much (perhaps even most) of today’s scientific/mathematical Python-based software, just knowing how to use Python’s         built-in sequence types is insufficient - one also needs to know how to use NumPy arrays.
 
-# MATHPLOTLIB
+# MathPlotLib
+matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc.
+
+In matplotlib.pyplot various states are preserved across function calls, so that it keeps track of things like the current figure and plotting area, and the plotting functions are directed to the current axes (please note that "axes" here and in most places in the documentation refers to the axes part of a figure and not the strict mathematical term for more than one axis).
 
 # PANDAS
+pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real-world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis/manipulation tool available in any language. It is already well on its way toward this goal.
 
-# SCIPY
+  - pandas is well suited for many different kinds of data:
+
+  - Tabular data with heterogeneously-typed columns, as in an SQL table or Excel spreadsheet
+
+  - Ordered and unordered (not necessarily fixed-frequency) time series data.
+
+  - Arbitrary matrix data (homogeneously typed or heterogeneous) with row and column labels
+
+  - Any other form of observational / statistical data sets. The data need not be labeled at all to be placed into a pandas data structure
+
+# SciPy
+SciPy is an open-source Python library which is used to solve scientific and mathematical problems. It is built on the NumPy extension and allows the user to manipulate and visualize data with a wide range of high-level commands. As mentioned earlier, SciPy builds on NumPy and therefore if you import SciPy, there is no need to import NumPy.
+
+Both NumPy and SciPy are Python libraries used for used mathematical and numerical analysis. NumPy contains array data and basic operations such as sorting, indexing, etc whereas, SciPy consists of all the numerical code. Though NumPy provides a number of functions that can help resolve linear algebra, Fourier transforms, etc, SciPy is the library that actually contains fully-featured versions of these functions along with many others. However, if you are doing scientific analysis using Python, you will need to install both NumPy and SciPy since SciPy builds on NumPy.
 
 # Some basic Machine Learning 
