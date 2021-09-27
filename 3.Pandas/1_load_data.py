@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-
+#getting a sample data frame
 os.system("wget https://raw.githubusercontent.com/lazyprogrammer/machine_learning_examples/master/tf2.0/sbux.csv")
 
 df = pd.read_csv('sbux.csv', error_bad_lines=False)

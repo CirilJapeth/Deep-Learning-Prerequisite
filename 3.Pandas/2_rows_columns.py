@@ -19,12 +19,31 @@ print(df[['open', 'close']])
 
 #using iloc to access the rows: 
 
-print(df.iloc[0])
+print(df.loc[0])
+# print(df.iloc[0])
+#using date as the index of the dataset
+df2= pd.read_csv('sbux.csv', index_col = 'date')
+print(df2.head(2))
+
+#we now can access the data with the date
+print(df2.loc['2013-02-08'])
+
+#access all rows where the open price was above 64
+print(df[df['open'] > 64])
+
+#creating a new csv
+smalldf = df[['open','close']]
+smalldf.to_csv('output.csv')
+
+print(smalldf.head(2))
+
+# To remove the index column 
+smalldf2 = df[['open','close']]
+smalldf2.to_csv('output2.csv', index=False)
+
+print(smalldf2.head(2))
 
 
 
-
-
-
-
-os.system("rm sbux.csv")
+#cleaning up
+os.system("rm sbux.csv output.csv output2.csv")
